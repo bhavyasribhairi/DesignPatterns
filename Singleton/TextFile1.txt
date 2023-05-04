@@ -1,0 +1,1 @@
+﻿Only 1 instancce of an class needs to be generated . 

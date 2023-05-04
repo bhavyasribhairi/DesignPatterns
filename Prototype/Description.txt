@@ -1,0 +1,11 @@
+﻿the Prototype Design Pattern gives us a way to
+create new or cloned objects from the existing object of a class.
+
+Prototype:  This is going to be an interface or
+			abstract class that is used for the types of objects that can be cloned itself.
+			In our example, it is going to be the Employee Abstract Class.
+ConcretePrototype: This is going to be the class that implements the Prototype abstract class
+			or interface for cloning itself. In our example, it is going to be the PermanetEmployee and 
+			TemporaryEmployee Classes.
+Client: The client is nothing but the class that creates a new object 
+			by asking a prototype to clone itself.

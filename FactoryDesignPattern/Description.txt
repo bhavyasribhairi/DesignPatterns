@@ -1,0 +1,6 @@
+﻿1.product --> parent class which has some methods to implement(interface)
+2.concrete product --> subclass which implement the prduct interface 
+3.Abstract creator--> declares factory method, returns the type of object to return when instantiates 
+						product class
+4.concrete creator --> implements the abstract creator and overrides the methods to return the type of object 
+						to return

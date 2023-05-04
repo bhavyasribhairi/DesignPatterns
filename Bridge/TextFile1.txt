@@ -1,0 +1,14 @@
+﻿Implementer: This is an interface and this interface must be implemented by all the implementation 
+			 classes. This interface is going to act as a bridge between the abstraction classes 
+			 and the implementer classes. In our example, it is the ILEDTV interface.
+ConcreteImplementationA / ConcreteImplementaionB: These are going to be classes and implement 
+			the Implementor (ILEDTV) interface. In our example, it is our SamsungLedTv and SonyLedTv classes.
+			These classes contain the concrete implementation of all the operations (in our example implementation
+			 SwitchOn, SwitchOff, and SetChannel methods).
+Abstraction: This is going to be an abstract class. In our example, it is the AbstractRemoteControl 
+			class. It defines the methods (in our example SwitchOn, SwitchOff, and SetChannel) for the Client Code 
+			to call. The protected implementer variable (in our example it is the ledTv variable) holds a reference
+			to the object that performs the implementation.
+ConcreteAbstraction / RefinedAbstraction: ConcreteAbstractions are the concrete classes that are
+			iherited from the Abstraction abstract class. In our example, it is the SamsungRemoteControl
+			and SonyRemoteControl.
